@@ -11,8 +11,8 @@ public class DragDropPanel extends JPanel {
     //ImageIcon icon = new ImageIcon(Objects.requireNonNull(getClass().getResource("/resources/elephant.png")));
     //ImageIcon icon = new ImageIcon(Objects.requireNonNull(getClass().getResource("/resources/elephant.png")));
     //InputStream source1 = DragDropPanel.class.getResourceAsStream("elephant.png");
-    //ImageIcon icon = new ImageIcon(source1);
-    ImageIcon icon = new ImageIcon("C:\\Users\\JIAN HE\\IdeaProjects\\DragDrop\\src\\resources\\images\\elephant.png");
+    ImageIcon icon = new ImageIcon(Objects.requireNonNull(DragDropPanel.class.getResource("images/elephant.png")));
+    //ImageIcon icon = new ImageIcon("C:\\Users\\JIAN HE\\IdeaProjects\\DragDrop\\src\\resources\\images\\elephant.png");
     //ImageIcon icon = new ImageIcon.read (String.valueOf(new InputStreamReader(source1)));
 
     //ImageIcon icon = new ImageIcon("images/elephant.png");
